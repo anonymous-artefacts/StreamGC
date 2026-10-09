@@ -67,7 +67,7 @@ This is the paper's default configuration: one million updates, half insertions 
 
 The ten graphs from the paper (Table III), all from the SuiteSparse Matrix Collection. |E| counts undirected edges, and the average degree is 2|E|/|V|. G1–G8 run on one GPU, while G9 and G10 run across multiple GPUs.
 
-| | Graph | \|V\| | \|E\| | Avg. deg. |
+| | Graph | \|V\| | \|E\| | Avg. deg. (2 \|E\| / \|V\|) |
 |---|---|---:|---:|---:|
 | G1  | delaunay_n17     |     131,072 |       393,176 |   6.00 |
 | G2  | com-Amazon       |     334,863 |       925,872 |   5.53 |
